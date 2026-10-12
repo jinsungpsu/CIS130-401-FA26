@@ -54,14 +54,14 @@ ExitProcess proto,dwExitCode:dword
 
 .code						; <--- actual instructions in this section
 main proc
-PART1:	mov eax, 5				; nmemonic
+PART1:	mov eax, 5				; mnemonic
 							; instruction operation
 							; MOV
 							; still not case sensitive
 
 
 	mov	eax, num            ; this line does blah
-	; mov (no E in the nmemonic!!!)
+	; mov (no E in the mnemonic!!!)
 	; similar to = (assignment operator)
 	; ---> eax = num
 	
